@@ -1,0 +1,170 @@
+body {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.topo  {
+    height:80px;
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /*centraliza na horizontal*/
+    align-items: center; /*centraliza em cima e embaixo*/
+}
+
+.separador-horizontal {
+    background-color: #EBEDEF;
+    height: 1px;
+    margin: 10px 0;
+}
+
+.links {
+    width: 1250;
+    font-weight: 700;
+    font-size: 19px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    /*text-decoration: none; vamos colocar no reset.css
+    pois usamos sempre*/
+}
+
+.topo img {
+    height: 60px;
+}
+
+.conteudo {
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+    /*margin: 0 auto; em teoria corresponderia aos comandos
+    display flex e justify contents...no meu não
+    está funcionando isto, do professor
+    funciona*/
+}
+
+.noticias-principais {
+    width: 624px;
+    height: 800px;
+}
+
+.manchete p {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.manchete a {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+    display: block;
+}
+
+.noticias-relevantes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.noticias-esportes {
+    width: 240px;
+    height: 800px;
+}
+
+.noticias-gshow {
+    width: 240px;
+    height: 800px;
+}
+
+.separador-vertical {
+    background-color: #EBEDEF;
+    height: 600px;
+    width: 1px;
+}
+
+.noticia img {
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+    margin-bottom:10px ;
+}
+
+.noticia strong {
+    font-weight: 700px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold; /*coloquei bold pois não funcionou só com o
+    strong. O do prof. funcionou usando só strong. Why??*/
+}
+
+.noticia a {
+    font-weight: 400px;
+    font-size: 14px;
+    margin: 15px 0;
+    display: block; /* é necessário pois o "a" é um elemento inline e
+                    assim o margin: 10px 0 não funcionaria*/
+    color:#2F3134;
+ }
+
+
+.noticia small {
+    font-weight: 500px;
+    font-size: 14px;
+}
+
+.noticias-relevantes img {
+    width: 193px;
+    height: 110px; /*funciona pois está no final, estou 
+    reescrevendo noticia-gshow*/
+}
+
+.noticias-relevantes .noticia {
+    width: 193px;
+}
+
+.g1 {
+    color: #c3170C; /*acho todas as propriedades de 
+    cada item, usando o FIGMA...tem que fazer login*/
+}
+
+.oglobo {
+    color:#1E4B9B;
+}
+
+.valor {
+    color: #006766;
+}
+
+.ge {
+    color: #07AA47;
+}
+
+.cartola {
+    color: #E3662B;
+}
+
+.globoplay {
+    color: #FB0735;
+}
+
+.dropz {
+    color: #FF75BB;
+}
+
+.gshow {
+    color:#EC7D00 ;
+}
+
+.quem {
+    color: #323333;
+}
+
+.receitas {
+    color: #A81D83;
+}
